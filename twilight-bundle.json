@@ -26,7 +26,10 @@
                     "format": "image",
                     "required": false,
                     "value": null,
-                    "settings": { "width": 1440, "height": 520 }
+                    "settings": {
+                        "width": 1440,
+                        "height": 520
+                    }
                 },
                 {
                     "id": "hero_mobile",
@@ -36,7 +39,10 @@
                     "format": "image",
                     "required": false,
                     "value": null,
-                    "settings": { "width": 750, "height": 640 }
+                    "settings": {
+                        "width": 750,
+                        "height": 640
+                    }
                 },
                 {
                     "id": "tabs",
@@ -119,7 +125,10 @@
                     "format": "image",
                     "required": false,
                     "value": null,
-                    "settings": { "width": 1440, "height": 400 }
+                    "settings": {
+                        "width": 1440,
+                        "height": 400
+                    }
                 },
                 {
                     "id": "bottom_mobile",
@@ -129,9 +138,15 @@
                     "format": "image",
                     "required": false,
                     "value": null,
-                    "settings": { "width": 750, "height": 500 }
+                    "settings": {
+                        "width": 750,
+                        "height": 500
+                    }
                 }
             ]
         }
+    ],
+    "features": [
+        "landing-page-templates"
     ]
 }
