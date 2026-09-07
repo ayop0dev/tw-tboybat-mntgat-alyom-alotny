@@ -146,7 +146,9 @@
             ]
         }
     ],
-    "features": [],
+    "features": [
+        "landing-page-templates"
+    ],
     "templates": [
         {
             "id": "626c5dd3-5fc1-4742-8741-063ff26f8e8f",
