@@ -146,5 +146,16 @@
             ]
         }
     ],
-    "features": []
+    "features": [],
+    "templates": [
+        {
+            "id": "626c5dd3-5fc1-4742-8741-063ff26f8e8f",
+            "path": "templates.national-day-products-test",
+            "category_id": "1939592358",
+            "primary_color": "",
+            "thumbnail": "",
+            "is_default": true,
+            "public_preview_url": "https://salla.design/preview/s/nbhx0qtc1roq/national-day-products-test"
+        }
+    ]
 }

@@ -1,0 +1,139 @@
+{
+  "id": "626c5dd3-5fc1-4742-8741-063ff26f8e8f",
+  "components": [
+    {
+      "title": "National Day Products",
+      "icon": "sicon-layout-grid",
+      "name": "national-day-products",
+      "key": "ef00840a-d47a-4c58-a7d5-53e4abf38039",
+      "image": "https://cdn.salla.network/images/themes/default/placeholder.jpg",
+      "fields": [
+        {
+          "id": "hero_desktop",
+          "icon": "sicon-image",
+          "type": "string",
+          "label": "صورة الهيرو (سطح المكتب)",
+          "format": "image",
+          "required": false,
+          "value": null,
+          "settings": {
+            "width": 1440,
+            "height": 520
+          }
+        },
+        {
+          "id": "hero_mobile",
+          "icon": "sicon-image",
+          "type": "string",
+          "label": "صورة الهيرو (الجوال)",
+          "format": "image",
+          "required": false,
+          "value": null,
+          "settings": {
+            "width": 750,
+            "height": 640
+          }
+        },
+        {
+          "id": "tabs",
+          "type": "collection",
+          "format": "collection",
+          "label": "تبويبات التصنيفات",
+          "item_label": "تبويب",
+          "required": false,
+          "minLength": 0,
+          "maxLength": 40,
+          "value": [],
+          "fields": [
+            {
+              "id": "tabs.title",
+              "type": "string",
+              "icon": "sicon-format-text-alt",
+              "label": "عنوان التبويب",
+              "format": "text",
+              "required": true,
+              "value": null,
+              "maxLength": 80
+            },
+            {
+              "id": "tabs.category",
+              "type": "items",
+              "icon": "sicon-keyboard_arrow_down",
+              "label": "التصنيف",
+              "format": "dropdown-list",
+              "source": "categories",
+              "selected": [],
+              "options": [],
+              "multichoice": false,
+              "searchable": true,
+              "required": true,
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "active_tab_background",
+          "type": "string",
+          "icon": "sicon-paint-bucket",
+          "label": "لون خلفية التبويب النشط (HEX)",
+          "format": "text",
+          "required": false,
+          "value": "#006c58"
+        },
+        {
+          "id": "active_tab_text",
+          "type": "string",
+          "icon": "sicon-format-text-alt",
+          "label": "لون نص التبويب النشط (HEX)",
+          "format": "text",
+          "required": false,
+          "value": "#ffffff"
+        },
+        {
+          "id": "inactive_tab_text",
+          "type": "string",
+          "icon": "sicon-format-text-alt",
+          "label": "لون نص التبويب غير النشط (HEX)",
+          "format": "text",
+          "required": false,
+          "value": "#164a40"
+        },
+        {
+          "id": "inactive_tab_border",
+          "type": "string",
+          "icon": "sicon-border-all",
+          "label": "لون حد التبويب غير النشط (HEX)",
+          "format": "text",
+          "required": false,
+          "value": "#b8cfc8"
+        },
+        {
+          "id": "bottom_desktop",
+          "icon": "sicon-image",
+          "type": "string",
+          "label": "الصورة السفلية (سطح المكتب)",
+          "format": "image",
+          "required": false,
+          "value": null,
+          "settings": {
+            "width": 1440,
+            "height": 400
+          }
+        },
+        {
+          "id": "bottom_mobile",
+          "icon": "sicon-image",
+          "type": "string",
+          "label": "الصورة السفلية (الجوال)",
+          "format": "image",
+          "required": false,
+          "value": null,
+          "settings": {
+            "width": 750,
+            "height": 500
+          }
+        }
+      ]
+    }
+  ]
+}
